@@ -1,0 +1,72 @@
+#green-stripe{
+
+    background-color: darkgreen;
+    height: 10px;
+    width: 100%;
+}
+#yellow-stripe{
+
+    background-color: yellow;
+    height: 10px;
+    width: 100%;
+}
+
+/* CONTENEDOR GENERAL */
+#body{
+    background-color: #f5f5f5;
+    flex:1;
+}
+
+/* CAJA CENTRADA */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px 20px;
+}
+
+/* CAJA DE BOTONES */
+#barraBotones{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    background: white;
+    padding: 30px 40px;
+
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+
+    width: 100%;
+    max-width: 350px;
+}
+
+/* BOTONES / ENLACES PRINCIPALES */
+#barraBotones .mainButton{
+
+    width: 100%;
+    padding: 12px;
+
+    font-size: 16px;
+
+    background-color: darkgreen;
+    color: white;
+
+    border-radius: 8px;
+
+    transition: 0.2s;
+}
+
+#barraBotones a.mainButton{
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+}
+
+#barraBotones .mainButton:hover{
+    background-color: green;
+    transform: scale(1.03);
+}

@@ -1,0 +1,40 @@
+header{
+   background-image: url("../assets/fondoPueblo.png");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+
+   width: 100%;
+   height: 50vh;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   position: relative;
+}
+
+header::before{
+   content: "";
+   position: absolute;
+   inset: 0;
+   background: rgba(0,0,0,0.6);
+}
+
+header h1{
+   position: relative;
+   color: white;
+   font-size: 3rem;
+   z-index: 1;
+}
+
+header.header--compact{
+   height: 120px;
+}
+
+header.header--compact h1{
+   font-size: 1.4rem;
+   text-align: center;
+   padding: 0 16px;
+}
+
